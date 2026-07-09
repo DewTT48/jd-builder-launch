@@ -89,6 +89,9 @@
       line-height: 1.04;
       font-weight: 700;
       letter-spacing: 0;
+      text-wrap: balance;
+      word-break: keep-all;
+      overflow-wrap: normal;
     }
 
     .subtitle {
@@ -98,6 +101,8 @@
       font-size: clamp(26px, 3.4vw, 42px);
       line-height: 1.42;
       font-weight: 600;
+      text-wrap: balance;
+      word-break: keep-all;
     }
 
     .actions {
@@ -137,6 +142,21 @@
       color: var(--muted);
       font-size: 16px;
       line-height: 1.7;
+      text-wrap: balance;
+    }
+
+    .account-note {
+      margin: 18px auto 0;
+      width: fit-content;
+      max-width: 100%;
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: rgba(255, 255, 255, 0.88);
+      background: rgba(255, 255, 255, 0.1);
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.45;
     }
 
     footer {
@@ -200,11 +220,12 @@
         </div>
         <div class="actions">
           <a class="button" href="https://script.google.com/macros/s/AKfycbzjSB7NfCKN9sF7OlpNMUST6GAqebQTMJZOgWuBnJOn8-5ttTMLGrZas0-dc25cSafHLg/exec" target="_blank" rel="noopener">เข้าสู่ระบบ</a>
-          <a class="button secondary" href="mailto:dewteerapap@seederschool.com?subject=%E0%B8%82%E0%B8%AD%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%96%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%20JD%20Builder">ติดต่อผู้ดูแลระบบ</a>
+          <a class="button secondary" href="https://script.google.com/macros/s/AKfycbyzffTTO26Hi06B7sMcMlTrwUqQ3Wq-uk-6vBNcks_FSXG7xcYin82nTEGErvjUNdWB/exec" target="_blank" rel="noopener">ขอดู Demo / ติดต่อทีมงาน</a>
         </div>
+        <div class="account-note">แบบฟอร์มติดต่อจะขอให้เข้าสู่ระบบด้วย Google Account ก่อนส่งข้อมูล</div>
         <div class="support">
           ใช้บัญชี Google Workspace ขององค์กรเพื่อเข้าใช้งาน<br>
-          หากเปิดระบบไม่ได้ กรุณาติดต่อ HR หรือผู้ดูแลระบบ
+          หากเปิดระบบไม่ได้ กรุณาติดต่อ HR หรือส่งคำขอผ่านแบบฟอร์มติดต่อทีมงาน
         </div>
       </section>
     </main>
